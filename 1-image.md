@@ -15,9 +15,9 @@ docker pull <nombre imagen>:<tag>
 
 Descargar la imagen **hello-world**
 # COMPLETAR
-
+```
 docker pull hello-world
-
+```
 **¿Qué es nginx**
 # COMPLETAR 
 
@@ -25,17 +25,17 @@ Es un servidor web de código abierto de alto rendimiento y bajo consumo de recu
 
 Descargar la imagen  **nginx** en la versión **alpine**
 # COMPLETAR
-
+```
 docker pull nginx:alpine
-
+```
 ### Listar imágenes
 
 ```
-<img width="1273" height="431" alt="image" src="https://github.com/user-attachments/assets/ee72899d-2749-45c4-af48-ca5f82e68c5e" />
-
+docker image ls
 ```
 
 # COLOCAR UNA CAPTURA DE PANTALLA DEL RESULTADO 
+<img width="922" height="157" alt="image" src="https://github.com/user-attachments/assets/e733522e-25db-4b97-935d-a00074a121f9" />
 
 **Identificadores**
 
@@ -53,6 +53,8 @@ Inspeccionar la imagen hello-world
 # COMPLETAR
 
 **¿Con qué algoritmo se está generando el ID de la imagen**
+
+Se genera con un algoritmo de cifrado denominado **sha256**
 # COMPLETAR
 
 ### Filtrar imágenes
