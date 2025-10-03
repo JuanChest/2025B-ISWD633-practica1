@@ -61,7 +61,6 @@ Se genera con un algoritmo de cifrado denominado **sha256**
 
 ```
 docker images | grep <termino a buscar>
-
 ```
 
 ### Para eliminar una imagen
@@ -72,6 +71,10 @@ docker rmi <nombre imagen>:<tag>
 ```
 
 Eliminar la imagen hello-world 
+
+```
+docker rmi -f hello-world
+```
 # COMPLETAR
 
 -f: Es la opción para forzar la eliminación de la imagen incluso si hay contenedores en ejecución que utilizan esa imagen.
