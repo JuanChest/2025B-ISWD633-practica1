@@ -55,6 +55,8 @@ docker run -P -d --name jenkins -p 8080:8080 -p 50000:50000 jenkins/jenkins:alpi
 # COMPLETAR
 
 # COLOCAR UNA CAPTURA DE PANTALLA  DEL ACCESO http://localhost:8080
+<img width="3840" height="2075" alt="image" src="https://github.com/user-attachments/assets/eef511f0-f9c1-4f0a-b475-0286932cd48d" />
+
 
 ### ¿Cómo obtener la contraseña solicitada?
 Para obtener la contraseña solicitada es necesario ingresar al contenedor.
